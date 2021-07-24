@@ -69,7 +69,7 @@ body {
     height: 0.3rem;
     border-radius: 50%;
     display: inline-block;
-    background-color: #0c383e;
+    background-color: white;
     position: relative;
     top: -0.65rem;
     left: -5.05rem;
@@ -86,7 +86,7 @@ body {
     width: 100%;
     height: 100%;
     border-width: 1px;
-    border-color: rgba(9, 56, 62, 0.1);
+    border-color: rgba(255, 255, 255, 0.156);
     animation: ellipsesOrbit 15s ease-in-out infinite;
 }
 
