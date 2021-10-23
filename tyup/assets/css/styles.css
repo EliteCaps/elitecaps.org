@@ -17,6 +17,7 @@ Use a better box model (opinionated).
 *::before,
 *::after {
   box-sizing: border-box;
+  color: white;
 }
 
 /**
@@ -49,7 +50,8 @@ Remove the margin in all browsers.
 */
 
 body {
-  margin: 0;
+  margin: 0 5vw;
+  background-color: #222831;
 }
 
 /**
@@ -61,6 +63,13 @@ body {
     /* Firefox supports this but not yet `system-ui` */ "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+/*TODO: navbar fixed position */
+/* header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
 
 /*
 Grouping content
@@ -286,7 +295,12 @@ pre {
 }
 
 button {
-  background-color: transparent;
+  background-color: rgba(25, 77, 171, 1);
+  background-image: none;
+}
+
+button:hover {
+  background-color: rgba(21, 63, 140, 1);
   background-image: none;
 }
 
