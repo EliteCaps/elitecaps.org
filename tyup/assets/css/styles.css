@@ -1339,3 +1339,9 @@ video {
 
 @media (min-width: 1536px) {
 }
+
+.div-center {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
